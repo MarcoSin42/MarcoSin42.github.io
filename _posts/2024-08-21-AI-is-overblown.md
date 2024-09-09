@@ -1,0 +1,22 @@
+---
+title: I'm convinced that AI companies have vastly overstated the capabilities of AI/LLMs
+date: 2024-08-21 9:27:32 +0600
+categories: [LLMS, AI]
+tags: [llms, ai]     # TAG names should always be lowercase
+---
+
+Suppose that AI (LLMs) are as successful as the people on Hackernews, Reddit, and AI companies say they are.  Surely there would be a single public Github repo demonstrating the prowess of it, right?  A video of someone using it in even a very modestly sized codebase (~1000 lines of code; which is laughably small in many companies).  Yet after searching for such cases, none thus far has been produced.  I’ve attempted to use it, but aside from extremely boiler plate code (the kind you’d find in a tutorial), I have not been successful in using it in my own projects thus far. 
+
+I’ve looked in Reddit threads such as this one from a subreddit [specifically about using ChatGPT in coding projects](https://www.reddit.com/r/ChatGPTCoding/comments/1cy0hk9/what_a_lot_of_people_dont_understand_about_coding/l57ah3u/), which surely would be the one place where someone could find or produce an example?!  To be fair there is someone who was able to use it to successfully make pong, but pong is a common and a trivial project to do.  Furthermore, they don’t actually show themselves using LLMs to make it and only show the final product.  I’ve asked [Bing’s Co-pilot, Microsoft’s AI powered search engine, to show me Github projects which use LLMs to develop a significant portion of the project](https://www.bing.com/search?q=Show%20me%20a%20github%20repo%20which%20uses%20LLMs%20to%20code%20a%20significant%20portion%20of%20the%20project&qs=n&form=QBRE&sp=-1&lq=0&pq=show%20me%20a%20github%20repo%20which%20uses%20llms%20to%20code%20a%20significant%20portion%20of%20the%20project&sc=10-82&sk=&cvid=FEFF245D2E1E47C582110B87D2DA564F&ghsh=0&ghacc=0&ghpl=) yet it misunderstood the prompt entirely! I'm no English expert, but I'm fairly certain that question was plain as day.
+
+People who claim to have massive success with it are what I’d like to describe as LLMs themselves–they’re just buzzword machines vaguely notioning towards the concept of software architecture, patterns, etc etc...  There are hundreds of thousands of these people who claim to be expert software engineers who can leverage LLMs effectively in their projects, yet none of them have a public Github repo to show it off.  Any software developer who claims to gain a massive increase in productivity is self-reporting that they themselves are incompetent.  
+
+AI companies have **huge and astronomical** (tens if not hundreds of billions of dollars in) financial incentives to show off the prowess of their LLMs, so surely these AI companies can find an extremely competent software engineer amongst their ranks who can show off and produce a project from start to finish using AI/LLMs, right?!  The first AI company to do so would quickly capture the market share from other AI companies and would have an absolute torrent of venture capital to take a piece of the pie, but yet no AI company thus far has produced such an example?!  Even Microsoft, a stakeholder in OpenAI, doesn't seem to utilize their own product within their company.  
+
+We are thus left with two conclusions, either: AI companies are concealing their secret sauce and are unwilling to divulge it (despite massive financial incentives to show it off); or that AI companies have vastly overstated the capabilities of LLMs.  
+
+A friend of mine who I did a project with for a computer science class (who is an engineer first and foremost), used Co-pilot in one of our projects.  To be honest, the code that was produced was unnecessary (we didn’t end up using most of it IIRC), though it did produce a lot of (garbage) lines of code!
+
+The only winner in this AI race to the bottom thus far is Nvidia.  I do believe AI will inevitably replace us all, but LLMs are trained by example and the permutations and combinations of code and patterns is innumerable, for AI to truly replace a programmer would require a human-level intelligence.  That is, someone who is capable of generalizing and abstracting concepts, once AI can competently do research-level mathematics or philosophy is the day I start to embrace the singularity.  AI companies have zero incentive to accurately portray the capabilities of their AI as VC firms will fecklessly throw their dollars away.  
+
+Just goes to show an MBA doesn’t teach critical thinking skills!
