@@ -4,5 +4,4 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+I like science fiction and occasionally writing stories about technology.  I plan on using this website mostly as a blog and a place where I can write some short stories.  
