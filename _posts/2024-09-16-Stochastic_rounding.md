@@ -14,7 +14,9 @@ What you should take away from that article is that:
 
 1. The above means that the *expectation* of stochastic float addition is associative!
 
-NB: I emphasize the fact that the expectation of result is invariant with respect to the order in which floating point operations are performed and not stoca
+NB: I emphasize the fact that the expectation of result is invariant with respect to the order in which floating point operations are performed and not stochasting-floating-point arithmetic being associative is because it's not, this is due to the inherent indeterminism.  
+
+I repeat, merely the expectation of stochastastic-floating-point arithmetic is associative, not stochastic-rounding itself, this is an important distinction.
 
 It is known that IEEE 754 floating point arithmetic is not associative, this leads to some constraints such as the order in which you perform operations matters and inhibits some optimizations which can be done.  
 
@@ -53,3 +55,5 @@ SIMD is highly important when writing performant code, so floating point sums ca
 Since the expected value of stochastic-floating-point arithmetic is associative, we can leverage SIMD.  The expected value in error-accumulation is zero.
 
 This seemingly insignificant property of the associativity of stochastic-rounding seems to have been forgone by many authors as it seems ungoogleable thus far.  Perhaps it is due to the fact that the practical implementation of such algorithms is not yet possible.  Maybe because multiple accumulators are just better in every way?    
+
+I've asked Bing's search engine and as of the publication of this article [no one has seem to mentioned this seemingly innocuous fact](https://www.bing.com/chat?sendquery=1&q=Articles%20that%20mention%20stochastic%20rounding%20being%20associative&form=HECODX).
